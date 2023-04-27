@@ -16,6 +16,8 @@ import javax.persistence.Id;
 public class Orders {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+
     private int orderId;
 
 }
