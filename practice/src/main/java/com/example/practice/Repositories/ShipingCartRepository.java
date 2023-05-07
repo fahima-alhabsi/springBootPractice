@@ -1,4 +1,4 @@
 package com.example.practice.Repositories;
 
-public class Repository {
+public class ShipingCartRepository {
 }
