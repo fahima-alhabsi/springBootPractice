@@ -17,7 +17,7 @@ public class Orders {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-
+    Integer id;
     private int orderId;
 
 }

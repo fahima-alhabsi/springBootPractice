@@ -16,6 +16,7 @@ import javax.persistence.Id;
 public class ShippingAddresses {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Integer id;
     private String city;
     private String state;
     private String zipCode;

@@ -16,6 +16,7 @@ import javax.persistence.Id;
 public class Reviews {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Integer id;
     private int reviewId;
     private String text;
 }

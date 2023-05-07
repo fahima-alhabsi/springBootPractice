@@ -18,6 +18,7 @@ import javax.persistence.Id;
 public class Invoices {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Integer id;
     private int invoiceNumber;
     private int Date;
     private double totalAmount;

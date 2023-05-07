@@ -16,6 +16,7 @@ import javax.persistence.Id;
 public class Ratings {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Integer id;
     private int ratingId;
     private int userId;
     private String ratingDate;

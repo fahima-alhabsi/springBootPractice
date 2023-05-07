@@ -16,6 +16,7 @@ import javax.persistence.Id;
 public class ShippingCarts {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Integer id;
     private int cartId;
     private int userId;
 
