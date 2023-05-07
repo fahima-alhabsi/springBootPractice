@@ -1,4 +1,4 @@
 package com.example.practice.Repositories;
 
-public class ProductRepository {
+public interface ProductRepository {
 }
